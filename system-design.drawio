@@ -1,23 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T04:18:52.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="7YK_FY4xHlckLfMtkiln" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T04:25:21.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="LVeLgcYhQwsMl50qyDRA" version="21.3.6" type="github">
   <diagram name="第 1 页" id="0sPfJmM-CKxDsM3ebURr">
-    <mxGraphModel dx="1386" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="4263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FWA_HTjsvY4LHfUCcA5J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FWA_HTjsvY4LHfUCcA5J-1" target="FWA_HTjsvY4LHfUCcA5J-2">
+        <mxCell id="FWA_HTjsvY4LHfUCcA5J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="FWA_HTjsvY4LHfUCcA5J-1" target="FWA_HTjsvY4LHfUCcA5J-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FWA_HTjsvY4LHfUCcA5J-1" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="43" height="62" as="geometry" />
+        <mxCell id="FWA_HTjsvY4LHfUCcA5J-1" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-3072" width="43" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="FWA_HTjsvY4LHfUCcA5J-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="112" width="290" height="210" as="geometry" />
+        <mxCell id="FWA_HTjsvY4LHfUCcA5J-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-3220" width="390" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="FWA_HTjsvY4LHfUCcA5J-4" value="智能网卡&lt;br&gt;流量监控与特征提取模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="270" width="220" height="40" as="geometry" />
+        <mxCell id="FWA_HTjsvY4LHfUCcA5J-4" value="智能网卡&lt;br&gt;流量监控与特征提取模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-3062" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FWA_HTjsvY4LHfUCcA5J-5" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="200" width="180" height="40" as="geometry" />
+        <mxCell id="sRh9r5SZQZ7UP-55kx-S-1" value="GPU主机&lt;br&gt;异常识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-3130" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sRh9r5SZQZ7UP-55kx-S-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="499" y="-3090" width="61" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="sRh9r5SZQZ7UP-55kx-S-5" value="中心主机&lt;br&gt;异常识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-3200" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
