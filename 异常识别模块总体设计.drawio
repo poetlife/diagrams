@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T06:21:20.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="k-PFYHdJsd5-9MNIixRh" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T06:22:45.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="Gy-ivhY_209y6h3xM_Xq" version="21.6.9" type="github">
   <diagram name="第 1 页" id="LRrK8q9nF8ti5cJ7bYyI">
     <mxGraphModel dx="2206" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,19 @@
         <mxCell id="LIGtGQY2OONI2HFJMOh--3" value="固定阈值判定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="LIGtGQY2OONI2HFJMOh--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIGtGQY2OONI2HFJMOh--4" target="LIGtGQY2OONI2HFJMOh--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--4" value="人工智能模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="140" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIGtGQY2OONI2HFJMOh--5" target="LIGtGQY2OONI2HFJMOh--1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="370" />
+              <mxPoint x="480" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LIGtGQY2OONI2HFJMOh--9">
           <mxGeometry x="-0.3415" y="1" relative="1" as="geometry">
@@ -35,9 +43,6 @@
         </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--7" value="异常处理&lt;br&gt;模块" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="620" y="380" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="LIGtGQY2OONI2HFJMOh--11" value="达到阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="460" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LIGtGQY2OONI2HFJMOh--3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,6 +61,22 @@
         </mxCell>
         <mxCell id="LIGtGQY2OONI2HFJMOh--15" value="统计特征数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-10" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LIGtGQY2OONI2HFJMOh--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIGtGQY2OONI2HFJMOh--16" target="LIGtGQY2OONI2HFJMOh--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="490" />
+              <mxPoint x="480" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIGtGQY2OONI2HFJMOh--19" value="传递" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LIGtGQY2OONI2HFJMOh--18">
+          <mxGeometry x="-0.5714" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIGtGQY2OONI2HFJMOh--16" value="输出模型分数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
