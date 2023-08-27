@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T04:04:27.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="GhIaNeX3H1Nr087U3FY3" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T04:05:25.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="n7KxOLC6dvKN3A4VXDsi" version="21.6.9" type="github">
   <diagram name="第 1 页" id="g7cE3GzgcsRKpcmrCLL8">
     <mxGraphModel dx="780" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mwlcz3aquAu8vo3rrySw-1" value="Bluefield Network Adapter (ConnectX)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="560" width="530" height="60" as="geometry" />
+          <mxGeometry x="110" y="570" width="530" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mwlcz3aquAu8vo3rrySw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="320" width="530" height="230" as="geometry" />
+          <mxGeometry x="110" y="320" width="530" height="240" as="geometry" />
         </mxCell>
         <mxCell id="mwlcz3aquAu8vo3rrySw-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="130" y="340" width="150" height="200" as="geometry" />
+          <mxGeometry x="130" y="340" width="150" height="210" as="geometry" />
         </mxCell>
         <mxCell id="mwlcz3aquAu8vo3rrySw-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="290" y="450" width="330" height="90" as="geometry" />
@@ -28,8 +28,17 @@
         <mxCell id="mwlcz3aquAu8vo3rrySw-8" value="Libs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="340" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mwlcz3aquAu8vo3rrySw-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="mwlcz3aquAu8vo3rrySw-11" value="编排" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="135" y="370" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mwlcz3aquAu8vo3rrySw-12" value="遥测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="415" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mwlcz3aquAu8vo3rrySw-13" value="SDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="460" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mwlcz3aquAu8vo3rrySw-14" value="DPU管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="505" width="140" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
