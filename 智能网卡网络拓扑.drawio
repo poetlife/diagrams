@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T02:38:08.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="CZw9SeWI1YWvcvgA_B40" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T02:38:35.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="ICKXnheHbI1ADw8lc7IE" version="21.6.9" type="github">
   <diagram name="第 1 页" id="f-w1hROpVEtGUasfpLYD">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,14 @@
         </mxCell>
         <mxCell id="sjk9gGX9ZU6b4HF3eAcp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sjk9gGX9ZU6b4HF3eAcp-21" target="sjk9gGX9ZU6b4HF3eAcp-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AEfRt7zGCj3sC36dEaS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00FF00;" edge="1" parent="1" source="sjk9gGX9ZU6b4HF3eAcp-21" target="2AEfRt7zGCj3sC36dEaS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AEfRt7zGCj3sC36dEaS-9" value="IPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2AEfRt7zGCj3sC36dEaS-8">
+          <mxGeometry x="-0.0714" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sjk9gGX9ZU6b4HF3eAcp-21" value="Monitoring&lt;br&gt;APP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="374" y="402.5" width="80" height="45" as="geometry" />
