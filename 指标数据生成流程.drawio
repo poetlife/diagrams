@@ -1,17 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T06:43:49.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="4jUhylZAva-CqTaCPUhM" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T06:45:16.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="dsrKLMbbdD2NmQW5eLkv" version="21.6.9" type="github">
   <diagram name="第 1 页" id="3B1lMyyjqXDP7BqrjXRw">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="o7EPLu3JcLwBKOI4vQVB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o7EPLu3JcLwBKOI4vQVB-4" target="o7EPLu3JcLwBKOI4vQVB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o7EPLu3JcLwBKOI4vQVB-4" value="网卡层指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="400" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o7EPLu3JcLwBKOI4vQVB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o7EPLu3JcLwBKOI4vQVB-6" target="o7EPLu3JcLwBKOI4vQVB-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o7EPLu3JcLwBKOI4vQVB-6" value="网络层指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="460" width="110" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="o7EPLu3JcLwBKOI4vQVB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o7EPLu3JcLwBKOI4vQVB-7" target="o7EPLu3JcLwBKOI4vQVB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o7EPLu3JcLwBKOI4vQVB-7" value="传输层指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="520" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o7EPLu3JcLwBKOI4vQVB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o7EPLu3JcLwBKOI4vQVB-8" target="o7EPLu3JcLwBKOI4vQVB-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o7EPLu3JcLwBKOI4vQVB-8" value="应用层指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="584.5" width="110" height="45" as="geometry" />
@@ -36,6 +48,9 @@
         </mxCell>
         <mxCell id="o7EPLu3JcLwBKOI4vQVB-20" value="DPI流表" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="80" y="572" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o7EPLu3JcLwBKOI4vQVB-22" value="定时收集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="485" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
