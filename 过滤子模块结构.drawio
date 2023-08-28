@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T11:07:47.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="a--TrkmL0vjy6h_jEuAy" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T11:11:49.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="bhPoXjKAo3NkSzt7shLG" version="21.6.9" type="github">
   <diagram name="第 1 页" id="f-w1hROpVEtGUasfpLYD">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,33 @@
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="90" y="430" width="620" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-19" target="GxHEq-_8IUy-u3DmbjPP-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="440" />
+              <mxPoint x="650" y="440" />
+              <mxPoint x="650" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-49" value="查询慢表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-48">
+          <mxGeometry x="0.5084" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;endArrow=none;endFill=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-19" target="GxHEq-_8IUy-u3DmbjPP-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="420" />
+              <mxPoint x="145" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-57" value="直接转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-56">
+          <mxGeometry x="0.1915" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-19" value="快表 fast path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="452.5" width="140" height="120" as="geometry" />
@@ -21,6 +48,9 @@
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-22" value="Rule3 - drop&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-19">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-23" target="GxHEq-_8IUy-u3DmbjPP-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-23" value="慢表 slow path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="295" width="140" height="120" as="geometry" />
@@ -38,7 +68,7 @@
           <mxGeometry x="640" y="565" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="220" width="280" height="170" as="geometry" />
+          <mxGeometry x="90" y="220" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-34" value="ARM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="220" width="50" height="30" as="geometry" />
@@ -46,11 +76,30 @@
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-35" value="Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="90" y="220" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-36" target="GxHEq-_8IUy-u3DmbjPP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-47" value="未命中快表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-46">
+          <mxGeometry x="0.4286" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;endArrow=none;endFill=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-36" target="GxHEq-_8IUy-u3DmbjPP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-55" value="命中快表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-54">
+          <mxGeometry x="0.1283" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-36" value="p0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="573" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-37" value="pf1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="370" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-38" target="GxHEq-_8IUy-u3DmbjPP-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-38" value="pf1hpf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="389" y="370" width="50" height="37" as="geometry" />
