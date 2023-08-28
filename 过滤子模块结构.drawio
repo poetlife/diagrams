@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T10:54:20.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="tOTM16r8aQcnRhW3_PNn" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T10:55:41.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="gYsuwaIQWW9kkysyA3ne" version="21.6.9" type="github">
   <diagram name="第 1 页" id="f-w1hROpVEtGUasfpLYD">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,11 +21,30 @@
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-2" value="fast path" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="293.5" y="250" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-5" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="334" y="480" width="50" height="50" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-5" value="丢弃" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-9" target="GxHEq-_8IUy-u3DmbjPP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-13">
+          <mxGeometry y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-9" target="GxHEq-_8IUy-u3DmbjPP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-15">
+          <mxGeometry x="0.5662" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GxHEq-_8IUy-u3DmbjPP-9" value="是否命中规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="293.5" y="370" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-12" value="完成&lt;br&gt;转发" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="334" y="500" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
