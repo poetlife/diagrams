@@ -1,50 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T10:55:41.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="gYsuwaIQWW9kkysyA3ne" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T11:01:05.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="oZinAaur0NPt8HTQaqTb" version="21.6.9" type="github">
   <diagram name="第 1 页" id="f-w1hROpVEtGUasfpLYD">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-1" target="GxHEq-_8IUy-u3DmbjPP-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="90" y="385" width="620" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="334" y="150" width="50" height="50" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-19" value="快表 fast path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-2" target="GxHEq-_8IUy-u3DmbjPP-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-20" value="Rule 1 - forward port 2" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-19">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-10">
-          <mxGeometry x="-0.2" y="4" relative="1" as="geometry">
-            <mxPoint x="-5" as="offset" />
-          </mxGeometry>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-21" value="Rule 2 - forward port 4" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-19">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-2" value="fast path" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="293.5" y="250" width="131" height="60" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-22" value="Rule3 - drop&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-19">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-5" value="丢弃" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="530" y="500" width="50" height="50" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-23" value="慢表 slow path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-9" target="GxHEq-_8IUy-u3DmbjPP-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-24" value="OpenFlow Rule #1" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-23">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-13">
-          <mxGeometry y="-2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-25" value="OpenFlow Rule #2" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-23">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxHEq-_8IUy-u3DmbjPP-9" target="GxHEq-_8IUy-u3DmbjPP-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GxHEq-_8IUy-u3DmbjPP-15">
-          <mxGeometry x="0.5662" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-9" value="是否命中规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="293.5" y="370" width="131" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GxHEq-_8IUy-u3DmbjPP-12" value="完成&lt;br&gt;转发" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="334" y="500" width="50" height="50" as="geometry" />
+        <mxCell id="GxHEq-_8IUy-u3DmbjPP-26" value="OpenFlow Rule #3" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GxHEq-_8IUy-u3DmbjPP-23">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
