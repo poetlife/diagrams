@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T05:46:25.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="rX0O_rdBn9H8n_LB-NKc" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T05:49:19.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="rYg0nym_OrdQtHqjr8vW" version="21.6.9" type="github">
   <diagram name="第 1 页" id="x5bcVvTnxh-3LC1SSKEP">
     <mxGraphModel dx="1379" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,10 @@
         <mxCell id="Q3uDuGcDi4dNHSD7kp2U-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="380" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3uDuGcDi4dNHSD7kp2U-3" target="Q3uDuGcDi4dNHSD7kp2U-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3uDuGcDi4dNHSD7kp2U-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="374.9200000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q3uDuGcDi4dNHSD7kp2U-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png;" vertex="1" parent="1">
           <mxGeometry x="378" y="340" width="70" height="69.41" as="geometry" />
@@ -40,11 +42,10 @@
         <mxCell id="Q3uDuGcDi4dNHSD7kp2U-12" value="异常处理程序后端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="355" y="509.53999999999996" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="Q3uDuGcDi4dNHSD7kp2U-17" target="Q3uDuGcDi4dNHSD7kp2U-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://w7.pngwing.com/pngs/434/923/png-transparent-grafana-hd-logo.png;" vertex="1" parent="1">
-          <mxGeometry x="560" y="336" width="70" height="77.84" as="geometry" />
+        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="Q3uDuGcDi4dNHSD7kp2U-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="374.9200000000001" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q3uDuGcDi4dNHSD7kp2U-18" value="grafana" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="409.41" width="60" height="30" as="geometry" />
@@ -60,6 +61,9 @@
         </mxCell>
         <mxCell id="Q3uDuGcDi4dNHSD7kp2U-25" value="中心主机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3uDuGcDi4dNHSD7kp2U-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAABBxJREFUWAmtV0uoHEUUnaU/snj6Mm+6z9UYFL8gKH4WikH8ENSFCKKQoOZN35r35ElENIIEI6IYF7pSFMSNbtSFRtGFQgwoKPiJIJpVkIhikmcw/pdHqmaqp6urpnteJgNNfe65556qulOfTmfGHzW/lQbfsshunJFqNncarNAIy2+ATbMxnqA3TX5ZKcILUhw6QbrZ3Kh4PRJjRansZL97bpWdg+56DrCJ/d5F1f6Z6zTZTVR8mBTiZ2hYfkYjz1DxXIlVObwmAW4EBjuGI8cnVPmYRu6hZtfS4JuSOAw8zpu2/mlnhyZ/ceZgbWIUV081O1R5fu1i8AEVu+JP9iS5CrllWjE7kwT10ar8Ts3vpVm4uImYW7un02ALVX4oeRWrHCxsaPJzNhb5baVTXYBvK/ZSz+q1ktUALplLDvmqZo6bXJlb1yhG5dPYa/oeFriDij9dDJWHWz2p8lZSkCXZJlkrQQuAJrt9KAbHWqCdDpe6G5NiDHZMcmY/B03+FI18RMU+9xm8Tc2NzZu6H1VeGMbAlrotatPgr0CQynE+hFMjYKfTYSHbAqzPC1/aGVXs5n0bTvH+1Ow0GvmVKnt8X7JkP78mIld5KQWm5tsjrBcRl9/z/oV5z8NBfhcNfvLtZEnFo1GAxPWABueHODzpdm97BqncTJXXQrs93fF5NSiN/FFtR3Uq3olIlucX6kAqXilxhdxdt9v26BxbLXF2thQPeiwN3vD1oOQD+Zk0eD9wHE11ABw1aHDEYVVeTtl9HwdyKRX/jHlxxNuSpfsHKQ6NHSoXJpXjdScuz59RYmvXhTrWtu1slHg7wAJ3pnCd0UZ3MADXkq/uWIpRrNZtqbbdn0J+vJrCWdW7Q2BlVkpR8RlEIz9avyRpojOIodiXgNgplF8CYCmgIqqSdJ5ktMnRHpi+r6kMYij2JrEscH20ydUFKQ7Une0mSCPfuSCKXVV7dT+x/S6Jq5z25C4WLqn6lHUWciVVDgfqq862rnisdBhV3E6q8rg7/Ow1wR4FRt61z5cqlipPR9yK/VVMUHcjVTwyednwL5eyCwKnSoN9uY4DXFXpclUuYm7izBfYXMdHbfbXd2nky2g0Bj9zOZPIoaGDRt6MeXw+4tkG17HJPivCzWpEYNfbYHGMTNeGm6i8FwlR+Y+KL9xla2VuXdo70csi3xqR+VxS7KeiX79C2sQcnm/4LfYNz6ZEyOauievtRflScaARqzjGRZzXHK3BSu1dHo/Or/caSsVRanZhQ6h2E/v5DSdFzGLvnPZoLQj2e1ckxdibn1+etlLl65Yw05mH757Kcij+dpempe5Gy0DNzmaBzS5hhw+5o5FIzbdPF20KlHteDFDYJWuDuxwLz7qDk+7ObVwnxe52XMUTo1fCdO/qUeT/Afu5N4Iiqy48AAAAAElFTkSuQmCC;" vertex="1" parent="1">
+          <mxGeometry x="560" y="339.40999999999997" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
